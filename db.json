@@ -1,0 +1,20 @@
+{
+    "tips":[
+        {   "id":1,
+            "user":"Jameson",
+            "content":"React is the best front-end framework for single page applications."
+        },
+        {
+            "id":2,
+            "user":"Olivia",
+            "content":"Axios works better than fetch when making requests."
+        }
+    ],
+    "books":[
+        {
+            "id":1,
+            "author":"John Cook",
+            "title":"The React CookBook"
+        }
+    ]
+}
