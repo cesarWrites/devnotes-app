@@ -27,27 +27,27 @@
     "news":[
         {
             "id":1,
-            "header":"",
-            "excerpt":"",
-            "url":""
+            "header":"Google Pixel 6a’s Fingerprint Scanner Has a Security Bug",
+            "excerpt":"The Google Pixel 6a can apparently be unlocked even with unregistered fingerprints. We also found the same behaviour on our Pixel 6a review unit.",
+            "url":"https://gadgets360.com/mobiles/news/google-pixel-6a-fingerprint-scanner-security-unlock-flaw-3192394"
         },
         {
             "id":2,
-            "header":"",
-            "excerpt":"",
-            "url":""
+            "header":"Avatar Studios’ first animated movie will feature very familiar faces",
+            "excerpt":"The first animated movie from Avatar Studios, the team Nickelodeon set up to work on movies and shows in the Last Airbender universe, will feature Avatar Aang and his friends, according to an announcement made during San Diego Comic-Con (via Gizmodo).",
+            "url":"https://www.theverge.com/2022/7/25/23277475/avatar-studios-airbender-first-animated-movie-aang-comic-con-reveal"
         },
         {
             "id":3,
-            "header":"",
-            "excerpt": "",
-            "url":
+            "header":"Tech Giants Want to Banish the Leap Second to Stop Internet Crashes",
+            "excerpt": "Syncing clocks with the Earth's rotation causes more problems than it's worth, according to Google, Meta, Microsoft and Amazon. Key government agencies agree.",
+            "url":"https://www.cnet.com/tech/computing/tech-giants-try-banishing-the-leap-second-to-stop-internet-crashes/"
         },
         {
             "id":4,
-            "header":"",
-            "excerpt":"",
-            url:""
+            "header":"Google fires engineer who contended its AI technology was sentient",
+            "excerpt":"New York (CNN)Google (GOOG) has fired the engineer who claimed an unreleased AI system had become sentient, the company confirmed, saying he violated employment and data security policies.",
+            "url":"https://edition.cnn.com/2022/07/23/business/google-ai-engineer-fired-sentient/index.html"
         }
     ]
 }
