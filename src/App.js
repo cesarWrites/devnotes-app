@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 //import {  Route, Switch } from "react-router-dom";
 import Books from './components/books';
-import
+import News from './components/News';
 import './App.css';
 import TechTips from './components/TechTips';
 
