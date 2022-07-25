@@ -26,7 +26,28 @@
     ], 
     "news":[
         {
-            
+            "id":1,
+            "header":"",
+            "excerpt":"",
+            "url":""
+        },
+        {
+            "id":2,
+            "header":"",
+            "excerpt":"",
+            "url":""
+        },
+        {
+            "id":3,
+            "header":"",
+            "excerpt": "",
+            "url":
+        },
+        {
+            "id":4,
+            "header":"",
+            "excerpt":"",
+            url:""
         }
     ]
 }
