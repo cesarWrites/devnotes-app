@@ -1,17 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
+import axios from 'axios';
 
 function NewTechTipForm() {
-    const [title, setTitle] = useState("")
+    const [user, setUser] = useState("")
     const [content, setContent] = useState("")
-    const [author, setAuthor] = useState("")
   
     const handleSubmit =(e) => {
       e.preventDefault();
     
-    axios.post('http://localhost:8004/poems', {
-    title:title,
+    axios.post(' http://localhost:3000/tips', {
+    user:user,
     content:content,
-    author:author
   })
   .then((response) => {
     console.log(response)
@@ -21,16 +20,15 @@ function NewTechTipForm() {
     };
   
 return (
-    <form className="new-poem-form" onSubmit={handleSubmit}>
-      <input placeholder="Title" type="text" 
-      value={title} 
-      onChange={(e) => setTitle(e.target.value)}/>
-      <input placeholder="Author" type="text" 
-      value={author} 
-      onChange={(e) => setAuthor(e.target.value)}/>
-      <textarea placeholder="Write your masterpiece here..." rows={10} type="text" value={content} 
+    <form className="new-tip-form" onSubmit={handleSubmit}>
+      <input placeholder="UserName" type="text" 
+      value={user} 
+      onChange={(e) => setUser(e.target.value)}/>
+      <textarea placeholder="Write your tech tip here..." rows={10} type="text" value={content} 
       onChange={(e) => setContent(e.target.value)}/>
-      <input type="submit" value="Share your masterpiece"/>
+      <input type="submit" value="Share the tech tip" className="btn-inpt"/>
     </form>
   );
 };
+
+export default NewTechTipForm;
