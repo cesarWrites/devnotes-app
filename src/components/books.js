@@ -1,18 +1,18 @@
 import React, {useEffect, useState} from "react";
 import axios from 'axios';
 
-function TechTips(){
-    const[tips, setTips] = useState([])
+function Books(){
+    const[books, setBooks] = useState([])
 
     useEffect(()=>{
-        getTipDetails();
+        getBookDetails();
     }, [])
-    const getTipDetails =() =>{
+    const getBookDetails =() =>{
         axios
-        .get('http://localhost:3000/tips')
+        .get('http://localhost:3000/books')
         .then((res)=>{
             console.log(res);
-            setTips(res.data);
+            setBooks(res.data);
         })
         .catch((err) => {
             console.log(err);
@@ -23,11 +23,11 @@ function TechTips(){
     return(
         <div className="tech-tips">
             <div className="tips-container">
-            {tips.map((tip) => (
-                    <div className="tips-det" key = {tip.id}>
-                        <p>{tip.content}</p>
-                        <h3>{tip.user}</h3>
-                        <button>Like</button>
+            {books.map((book) => (
+                    <div className="tips-det" key = {book.id}>
+                        <h2>{book.title}</h2>
+                        <h3>{book.author}</h3>
+                        <h3>{book.subject}</h3>
                         </div>
                 ))}
                 </div>
@@ -35,4 +35,4 @@ function TechTips(){
     )
 }
 
-export default TechTips;
+export default Books;

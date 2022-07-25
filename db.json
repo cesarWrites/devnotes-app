@@ -14,7 +14,19 @@
         {
             "id":1,
             "author":"John Cook",
-            "title":"The React CookBook"
+            "title":"The React CookBook",
+            "subject": "ReactJS"
+        }, 
+        {
+            "id":2,
+            "author": "Marijn Haverbeke",
+            "title":"Eloquent Javascript",
+            "subject":"Javascript"
+        }
+    ], 
+    "news":[
+        {
+            
         }
     ]
 }
