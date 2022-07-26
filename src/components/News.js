@@ -17,11 +17,9 @@ const getNews =() =>{
     .catch((err) => {
         console.log(err);
     })
-
 };
     return(
-        <div>
-               <div className="tech-news">
+            <div className="tech-news">
             <div className="news-container">
             {news.map((newsItem) => (
                     <div className="news-det" key = {newsItem.id}>
@@ -32,7 +30,7 @@ const getNews =() =>{
                 ))}
                 </div>
         </div>
-        </div>
+       
     )
 }
 

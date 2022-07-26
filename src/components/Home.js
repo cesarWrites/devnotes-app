@@ -5,7 +5,7 @@ function Home() {
   return (
   <div className="home-div">
     <article>
-      <p>Get all the tech resources and tips to make your programming journey and understanding of etchnology a little more easier.</p>
+      <p>Get all the tech resources and tips to make your programming journey and understanding of technology a little more easier.</p>
       <p>Share your most amazing tips with the other tech enthusiasts </p>
       <img src={imgurl}/>
   </article>

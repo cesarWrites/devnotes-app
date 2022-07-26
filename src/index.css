@@ -148,3 +148,13 @@ li {
   margin-top: 2%;
   padding-bottom: 2%;
 }
+.news-container{
+  padding-right: 10%;
+  margin-right: 4%;
+}
+.news-det{
+  background-color: #ffffff;
+  padding: 4%;
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
