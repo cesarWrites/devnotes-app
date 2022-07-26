@@ -14,6 +14,16 @@
       "user": "John Doe",
       "content": "It happens all the time. You have a dozen tabs open in your browser and accidentally close the wrong one. You could open up your browser’s history and reopen the tab from there, or you can do it with a couple of keystrokes.",
       "id": 3
+    },
+    {
+      "id": 4,
+      "user":"Peterson",
+      "content":"When choosing a PC for graphic design, the key is finding the appropriate hardware for the creative software programs you use. Discover the key capabilities designers need most."
+    },
+    {
+      "id":5, 
+      "user":"Marylin",
+      "content":"To understand the advanced concepts of programming you need to be very clear about the fundamentals of programming. If you will be doing the same mistake then at some point, you will end up with lots of confusion and you will have to come back to your basics again. "
     }
   ],
   "books": [
