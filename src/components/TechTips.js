@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from 'axios';
+import NewTechTip from "./NewTip";
 
 function TechTips(){
     const[tips, setTips] = useState([])
@@ -31,6 +32,7 @@ function TechTips(){
                         </div>
                 ))}
                 </div>
+                <NewTechTip />
         </div>
     )
 }
