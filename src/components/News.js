@@ -27,7 +27,7 @@ const getNews =() =>{
                     <div className="news-det" key = {newsItem.id}>
                         <h2>{newsItem.header}</h2>
                         <p>{newsItem.excerpt}</p>
-                        <a>{newsItem.user}</a>
+                        <a href={newsItem.url}>Read more</a>
                         </div>
                 ))}
                 </div>

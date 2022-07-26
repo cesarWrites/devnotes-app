@@ -22,7 +22,9 @@ form.new-tip-form {
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
   background-color: #03042e;
-  width: 50%;
+  width: 45vh;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 form.new-tip-form input{
   margin: 4%;
@@ -34,12 +36,12 @@ form.new-tip-form textarea{
 }
 
 .btn-inpt{
-  width: 30%;
+  width: 40%;
   margin-bottom: 4%;
   padding: 0;
-  background-color: #a9aa53;
-  color: white;
-  font-size: 1.5rem;
+  background-color:white;
+  color: black;
+  font-size: 1.0rem;
   text-align: center;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
@@ -55,7 +57,58 @@ form.new-tip-form textarea{
 .navbar{
   font-size: 2.0rem;
   text-align: center;
-
 }
-.navbar Link{
+nav{
+  margin-right: 4%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.tech-tips{
+  display: flex;
+  flex-direction: row;
+}
+.tips-container{
+  width: 60%;
+  font-size: 1.5rem;
+}
+.tips-det{
+  padding-right: 4%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  background-color: white;
+}
+
+.tips-det h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.tips-det h4{
+  text-align: center;
+}
+.tips-det p{
+  padding-top: 2%;
+}
+.tips-det button{
+  width: 100px;
+  height: 50px;
+  background: none;
+  border: none;
+  text-align: center;
+}
+.new-tip-div button{
+  margin-top: 10%;
+  margin-left: 40px;
+  background-color: #03042e;
+  color: white;
+  font-weight: 600;
+  padding: 2%;
+  width: 50%;
 }
