@@ -103,6 +103,11 @@ li {
   border: none;
   text-align: center;
 }
+.tips-det button img{
+  width: 40px;
+  align-items: center;
+  margin-left: 40vh;
+}
 .new-tip-div button{
   margin-top: 10%;
   margin-left: 40px;
@@ -111,4 +116,10 @@ li {
   font-weight: 600;
   padding: 2%;
   width: 50%;
+}
+.new-tip-div{
+  min-height: 100vh;
+  min-width: 12em;
+  width: 28%;
+  padding: 1em;
 }

@@ -20,15 +20,20 @@
     },
     {
       "id": 4,
-      "user":"Peterson",
-      "content":"When choosing a PC for graphic design, the key is finding the appropriate hardware for the creative software programs you use. Discover the key capabilities designers need most.",
-      "upvotes":10
+      "user": "Peterson",
+      "content": "When choosing a PC for graphic design, the key is finding the appropriate hardware for the creative software programs you use. Discover the key capabilities designers need most.",
+      "upvotes": 10
     },
     {
-      "id":5, 
-      "user":"Marylin",
-      "content":"To understand the advanced concepts of programming you need to be very clear about the fundamentals of programming. If you will be doing the same mistake then at some point, you will end up with lots of confusion and you will have to come back to your basics again. ",
-      "upvotes":15
+      "id": 5,
+      "user": "Marylin",
+      "content": "To understand the advanced concepts of programming you need to be very clear about the fundamentals of programming. If you will be doing the same mistake then at some point, you will end up with lots of confusion and you will have to come back to your basics again. ",
+      "upvotes": 15
+    },
+    {
+      "user": "Morgan",
+      "content": "For college exams and technical interviews – a critical component of the job interview process – you will have to code-by-hand, because not only is this good for learning, but it’s universally known to be the ultimate test for a programmer’s proficiency. So start early and get used to this old-school practice.\n\n",
+      "id": 6
     }
   ],
   "books": [
