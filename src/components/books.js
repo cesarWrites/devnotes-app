@@ -21,13 +21,20 @@ function Books(){
     };
 
     return(
-        <div className="tech-tips">
-            <div className="tips-container">
+        <div className="tech-books">
+            <div className="books-container">
             {books.map((book) => (
-                    <div className="tips-det" key = {book.id}>
+                    <div className="books-det" key = {book.id}>
                         <h2>{book.title}</h2>
-                        <h3>{book.author}</h3>
-                        <h3>{book.subject}</h3>
+                        <div className="books-auth-det">
+                            <div className="book-img">
+                                <img src={book.bookUrl} alt="book url"/>
+                                </div>
+                        <div className="book-item-det">
+                        <h3>Author:{book.author}</h3>
+                        <h3>Topic:{book.subject}</h3>
+                        </div>
+                        </div>
                         </div>
                 ))}
                 </div>
