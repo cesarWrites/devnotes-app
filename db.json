@@ -42,35 +42,35 @@
       "author": "Carlons Roldan",
       "title": "The React CookBook",
       "subject": "ReactJS",
-      "bookUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjI8rMDegl5iEy9ST21VUuLVku7B5w8taPeIXJGKk3fEG8fIYp"
+      "bookUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjI8rMDegl5iEy9ST21VUuLVku7B5w8taPeIXJGKk3fEG8fIYp"
     },
     {
       "id": 2,
       "author": "Marijn Haverbeke",
       "title": "Eloquent Javascript",
       "subject": "Javascript",
-      "bookUrl":"https://books.google.co.ke/books/publisher/content?id=p1v6DwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&sig=ACfU3U2--PnwWDCz4HaXI9g-0yr747R1Ig&w=1280"
+      "bookUrl": "https://books.google.co.ke/books/publisher/content?id=p1v6DwAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&sig=ACfU3U2--PnwWDCz4HaXI9g-0yr747R1Ig&w=1280"
     },
     {
-      "id":3,
-      "author":"Robert Martin",
-      "title":"Clean Code",
+      "id": 3,
+      "author": "Robert Martin",
+      "title": "Clean Code",
       "subject": "Programming fundamentals",
       "bookUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXiCLaXo-haziow4z37tTCzYgsOZ2Bc2kJfRoedHtDO5l93LMo"
     },
     {
-      "id":4,
-      "author":"Andrew Hunt",
-      "title":"The Pragmatic Programmer",
+      "id": 4,
+      "author": "Andrew Hunt",
+      "title": "The Pragmatic Programmer",
       "subject": "programming fundamentals",
       "bookUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMtZ-yfjEmVvCvC077zMHDkySemFwXL5mkjCpaEDh7aXUw7BnH"
     },
     {
-      "id":5,
-      "author":"Cecil Martin",
-      "title":"Clean Architecture",
-      "subject":"Computer architecture",
-      "bookUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOiVQPSghydJqpDcD3-jKypf9Npi2PeBtCn0MqZ5s&usqp=CAE&s"
+      "id": 5,
+      "author": "Cecil Martin",
+      "title": "Clean Architecture",
+      "subject": "Computer architecture",
+      "bookUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOiVQPSghydJqpDcD3-jKypf9Npi2PeBtCn0MqZ5s&usqp=CAE&s"
     }
   ],
   "news": [
