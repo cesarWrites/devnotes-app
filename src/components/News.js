@@ -9,7 +9,7 @@ useEffect(()=>{
 }, [])
 const getNews =() =>{
     axios
-    .get('http://localhost:3000/news')
+    .get('https://devnotes-backend-app.herokuapp.com/news')
     .then((res)=>{
         console.log(res);
         setNews(res.data);

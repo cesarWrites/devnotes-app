@@ -9,7 +9,7 @@ function Books(){
     }, [])
     const getBookDetails =() =>{
         axios
-        .get('http://localhost:3000/books')
+        .get('https://devnotes-backend-app.herokuapp.com/books')
         .then((res)=>{
             console.log(res);
             setBooks(res.data);

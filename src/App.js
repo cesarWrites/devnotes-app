@@ -20,7 +20,6 @@ function App() {
       element={ <TechTips/> } />
       <Route path="books" 
       element={ <Books/>} />
-
       <Route path="news" 
       element={ <News/> } />
       </Routes>

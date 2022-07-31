@@ -7,8 +7,9 @@ function NewTechTipForm() {
   
     const handleSubmit =(e) => {
       e.preventDefault();
+      e.reset();
     
-    axios.post(' http://localhost:3000/tips', {
+    axios.post(' https://devnotes-backend-app.herokuapp.com/tips', {
     user:user,
     content:content,
   })

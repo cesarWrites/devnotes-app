@@ -57,6 +57,7 @@ form.new-tip-form textarea{
 .navbar{
   font-size: 2.0rem;
   text-align: center;
+ 
 }
 nav{
   margin-right: 4%;
@@ -67,7 +68,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline;
   margin: 0 5px;
   text-decoration: none;
 }

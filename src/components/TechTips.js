@@ -5,8 +5,8 @@ import NewTechTip from "./NewTip";
 function TechTips(){
     const[tips, setTips] = useState([])
     let [show, setForm] = useState(false);
-    let[count, setCount] = useState(0)
-    const srcUrl = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/thumbs-up_1f44d.png"
+    const srcUrl = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/thumbs-up_1f44d.png";
+    const altTxt = "This is an image"
   function handleClick(){
     setForm(true);
   }
@@ -15,7 +15,7 @@ function TechTips(){
     }, [])
     const getTipDetails =() =>{
         axios
-        .get('http://localhost:3000/tips')
+        .get('https://devnotes-backend-app.herokuapp.com/tips')
         .then((res)=>{
             console.log(res);
             setTips(res.data);
@@ -34,7 +34,7 @@ function TechTips(){
                         <p>{tip.content}</p>
                         <h3>{tip.user}</h3>
                         <h4>Upvotes: {tip.upvotes}</h4>
-                       <button><img src={srcUrl}></img></button>
+                       <button><img src={srcUrl} alt={altTxt}/></button>
                         </div>
                 ))}
                 </div>
